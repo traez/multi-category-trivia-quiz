@@ -1,0 +1,5 @@
+there are 4 components. refactor code such that if 
+questionText =  startDataArray[0];
+then shuffledAnswers should be set to useState(startDataArray[1]);
+Please share only code that needs to be changed or added 
+

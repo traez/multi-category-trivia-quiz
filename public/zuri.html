@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Self-Taught Bootcamp</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-scrimba.ico"
+    />
+    <link rel="stylesheet" type="text/css" href="zuri.css" />
+  </head>
+  <!-- 
+Test 30
+-->
+  <body>
+    <main>
+      <header>
+        <aside>
+          <img src="./images/icon-bulb.png" alt="" id="icon-bulb" />
+          <h1>Multi-Category Trivia Quiz</h1>
+          <img src="./images/icon-scrabble.png" alt="" id="icon-scrabble" />
+        </aside>
+        <form>
+          <nav>
+            <select id="category">
+              <option value="">Select Category</option>
+              <option value="9">General Knowledge</option>
+              <option value="17">Science and Nature</option>
+              <option value="18">Science Computers</option>
+              <option value="27">Animals</option>
+            </select>
+            <select id="difficulty">
+              <option value="">Select Difficulty</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </nav>
+          <menu>
+            <button class="start-next" id="start" type="button">Start</button>
+            <button class="start-next" id="next" type="button" disable>
+              Next Question
+            </button>
+          </menu>
+        </form>
+      </header>
+      <section>
+        <h2 id="numbah2">Question <span id="numba">1</span></h2>
+        <h3 id="question">The Nigerian flag is coloured Green - White and?</h3>
+        <ul>
+          <li>
+            <label>
+              green
+              <input id="aa" type="radio" name="quiz" />
+            </label>
+          </li>
+          <li>
+            <label>
+              green
+              <input id="aa" type="radio" name="quiz" />
+            </label>
+          </li>
+          <li>
+            <label>
+              green
+              <input id="aa" type="radio" name="quiz" />
+            </label>
+          </li>
+          <li>
+            <label>
+              green
+              <input id="aa" type="radio" name="quiz" />
+            </label>
+          </li>
+        </ul>
+      </section>
+      <article>
+        <h4 id="feedback">
+          First select Category and Difficulty level, then press Start
+        </h4>
+        <button id="again" disable>Play Again</button>
+      </article>
+      <footer>
+        <div>
+          <h5>©2023 Designed by</h5>
+          <h5>Trae Zeeofor</h5>
+        </div>
+        <h6>
+          <a
+            href="https://github.com/traez/rock-paper-scissors-game"
+            target="_blank"
+            >Code Repository</a
+          >
+        </h6>
+      </footer>
+    </main>
+
+    <script src="zuri.js"></script>
+  </body>
+</html>

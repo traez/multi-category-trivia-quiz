@@ -1,0 +1,46 @@
+-----------------------------------------------------------Main
+----------------------------------------------Header 3fr
+---------------------------------aside
+------------------------img
+------------------------h1
+------------------------img
+---------------------------------form
+------------------------Nav
+-----------------select
+----------option X 5
+-----------------select
+----------option X 4
+------------------------menu
+-----------------button
+-----------------button
+----------------------------------------------Section 4fr
+---------------------------------h2
+---------------------------------h3
+---------------------------------ul
+------------------------li X 4
+-----------------label
+----------input
+----------------------------------------------Article 2fr
+---------------------------------h4
+---------------------------------button
+----------------------------------------------Footer 1fr
+---------------------------------h5
+---------------------------------h6
+
+
+
+import { useRef } from "react";
+----------------------------------------------
+Layout holds header component with  statistics
+Layout holds footer component with MyInfo and Rules PopUp (conditional rendering and dialog)
+Page has 2 components A and B which are conditionally rendered based on state
+Component A, 3 decision circle
+component B result display
+component B has 3 child components conditionally displayed: you pick, the house, you win/lose
+----------------------------------------------
+https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub
+----------------------------------------------
+Use conditional rendering with <dialog> for popup. leave in Layout
+----------------------------------------------
+container holds triangle image
+----------------------------------------------
